@@ -27,20 +27,22 @@
             </div>
         </header>
         <div class="form-block">
-            <div class="signup">Sign Up</div>
-            <div class="login">Log In</div>
-            <div class="fb">Facebook</div>
-            <div class="g">Google+</div>
-            <div class="or-block">or</div>
-            <form action="#" method="POST">
-                <input type="text">
-                <input type="text">
-                <input type="email" name="" id="">
-                <input type="password">
-                <input type="password">
-                <label><input type="checkbox">Agree our <a href="#">Terms & Conditions</a></label>
-                <input type="submit" value="Create Account" class="btn">
-            </form>
+            <div class="form-inner-container">
+                <div class="signup">Sign Up</div>
+                <a href="#" class="link"><div class="login">Log In</div></a>
+                <div class="fb">Facebook</div>
+                <div class="g">Google+</div>
+                <div class="or-block">or</div>
+                <form action="#" method="POST">
+                    <input type="text" class="form-field" placeholder="First Name" value="Jason" autofocus>
+                    <input type="text" placeholder="Last Name" class="form-field">
+                    <input type="email" placeholder="Email" class="form-field">
+                    <input type="password" placeholder="Choose Password" class="form-field">
+                    <input type="password" placeholder="Confirm Password" class="form-field">
+                    <label class="check"><input type="checkbox" class="chkbx" checked>Agree our <a href="#" class="link">Terms & Conditions</a></label>
+                    <input type="submit" value="Create Account" class="btn">
+                </form>
+            </div>
         </div>
     </div>
 </body>
